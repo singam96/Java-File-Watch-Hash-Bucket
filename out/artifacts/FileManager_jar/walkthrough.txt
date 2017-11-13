@@ -1,0 +1,29 @@
+-------------Req 1--------------------
+used File and RandomFileAccess to read file in bytes
+Used md.digest() to generate and output the single hash 
+
+-------------------REQ 2 & 3--------------
+Made a FileWrapper class to implement the given interfaces.
+
+a)FileAccessor 
+b)HashChecker
+
+Filled in the implemented methods
+
+a) loadDataFile() 
+loads hashbucket.txt which is the config file,
+then parses the content and fills entry list ,
+Entry list is an ArrayList made of Entry Class.
+
+b) saveDataFile()
+
+saves hashbucket.txt config file by writing contents of Entry List line by line.
+
+c) addhashDetails()
+filename and hash is stored in the entry list in this method, also replacing
+removing is happening here.
+
+d)producefilehash()
+this is where the hash is generated according to the algorithm selected
+
+
